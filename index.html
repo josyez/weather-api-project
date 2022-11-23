@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather AIP</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1> 3 Day Weather Forecast</h1>
+
+    <div id="parent-container-form">
+      
+
+      <form id="form">
+        <h2 id="city-name"></h2>
+        <input id="city" type="text" placeholder="enter city">
+        <button class="button" type="submit">search</button>
+        <div id="errorMessage"></div>
+      </form>
+
+    </div>
+    
+    <div class="parent-container">
+      <div class="box1">
+        <h2>Todays Weather</h2>
+        <p class="today" id="todays-mintemp"></p>
+        <p class="today" id="todays-maxtemp"></p>
+      </div>
+
+      <div class="box2">
+        <h2>Tomorrows Weather</h2>
+        <p class="today" id="tomorrows-mintemp"></p>
+        <p class="today" id="tomorrows-maxtemp"></p>
+      </div>
+
+      <div class="box3">
+        <h2>Day After</h2>
+        <p class="today" id="dayafter-mintemp"></p>
+        <p class="today" id="dayafter-maxtemp"></p>
+      </div>
+
+     
+      
+    </div>
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+  text-align: center;
+}
+
+.parent-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border-style: solid; */
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding-left:  250px;
+  padding-right: 250px;
+
+}
+
+.box1{
+  
+
+}
+
+form{
+  display: flex;
+  /* border-style: solid; */
+  justify-content: flex-end;
+  
+}
+
+#city-name{
+  margin-right: 25%;
+}
+
+input{
+  margin: 20px;
+  margin-right: 1px;
+}
+
+.button{
+  margin: 20px;
+  margin-left: 1px;
+  
+}
+
+/* .parent-container-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
