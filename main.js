@@ -23,7 +23,7 @@ async function fetchWeather(city){
 
   }
   
-  fetchWeather("bronx");
+  fetchWeather("Bronx");
 
 
   const form = document.getElementById("form")
@@ -31,8 +31,8 @@ async function fetchWeather(city){
 
   const cityName = document.getElementById("city-name")
 
-  const todaysMax = document.getElementById("todays-mintemp")
-  const todaysMin = document.getElementById("todays-maxtemp")
+  const todaysMax = document.getElementById("todays-maxtemp")
+  const todaysMin = document.getElementById("todays-mintemp")
   
   const tomorrowsMax = document.getElementById("tomorrows-maxtemp")
   const tomorrowsMin = document.getElementById("tomorrows-mintemp")
